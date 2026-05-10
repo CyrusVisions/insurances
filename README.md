@@ -23,7 +23,7 @@ A modular React prototype for an insurance comparison website, converted from a 
   - React entry point.
 
 ## Current Functional Scope
-- Multi-language header toggle (TR/EN/RU/FA).
+- Multi-language header toggle (TR/EN/FR/RU/FA).
 - Hero section and insurance category grid.
 - “Coming soon” state for unavailable categories.
 - Prototype form view.

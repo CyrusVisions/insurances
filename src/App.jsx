@@ -3,6 +3,7 @@ import { useMemo, useState } from 'react';
 const langs = [
   { code: 'tr', label: 'TR' },
   { code: 'en', label: 'EN' },
+  { code: 'fr', label: 'FR' },
   { code: 'ru', label: 'RU' },
   { code: 'fa', label: 'FA' },
 ];
@@ -70,6 +71,22 @@ const content = {
       { key: 'phone', icon: '📱', name: 'موبایل', sub: 'دستگاه', enabled: false },
       { key: 'business', icon: '🏢', name: 'کسب‌وکار', sub: 'تجاری', enabled: false },
       { key: 'marine', icon: '⛵', name: 'دریایی', sub: 'قایق', enabled: false },
+    ],
+  },
+  fr: {
+    eyebrow: "La première plateforme d'assurances de Chypre du Nord",
+    title: ['Comparez toutes les assurances', 'au même endroit'],
+    subtitle: "34 compagnies · Tarifs en direct · Meilleur choix en 3 minutes",
+    categoryLabel: "Sélectionnez le type d'assurance",
+    categories: [
+      { key: 'traffic', icon: '🚗', name: 'Auto', sub: 'Obligatoire', enabled: true },
+      { key: 'casco', icon: '🛡️', name: 'Casco', sub: 'Véhicule', enabled: true },
+      { key: 'home', icon: '🏠', name: 'Habitation', sub: 'Propriété', enabled: true },
+      { key: 'travel', icon: '✈️', name: 'Voyage', sub: 'International', enabled: false },
+      { key: 'health', icon: '💊', name: 'Santé', sub: 'Individuelle', enabled: false },
+      { key: 'phone', icon: '📱', name: 'Téléphone', sub: 'Appareil', enabled: false },
+      { key: 'business', icon: '🏢', name: 'Entreprise', sub: 'Commercial', enabled: false },
+      { key: 'marine', icon: '⛵', name: 'Maritime', sub: 'Bateau', enabled: false },
     ],
   },
 };
