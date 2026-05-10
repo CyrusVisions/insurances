@@ -130,12 +130,6 @@ function App() {
         </div>
       </nav>
 
-      <section className="hero">
-        <div className="hero-eyebrow"><div className="pulse" />{current.eyebrow}</div>
-        <h1>{current.title[0]}<br /><i>{current.title[1]}</i></h1>
-        <p>{current.subtitle}</p>
-      </section>
-
       <section className="cat-section">
         <div className="cat-label">{current.categoryLabel}</div>
         <div className="cat-grid">
