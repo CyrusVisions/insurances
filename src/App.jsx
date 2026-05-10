@@ -114,12 +114,12 @@ function App() {
 
   return (
     <div dir={isRtl ? 'rtl' : 'ltr'}>
-      <h2 className="sr-only">SigortaKKTC — Insurance Comparison</h2>
+      <h2 className="sr-only">sigo — Insurance Comparison</h2>
 
       <nav>
         <a className="logo" href="#" onClick={(e) => e.preventDefault()}>
           <div className="logo-mark">🛡️</div>
-          <span className="logo-name">Sigorta<b>KKTC</b></span>
+          <span className="logo-name">sigo</span>
         </a>
         <div className="lang-row">
           {langs.map((item) => (

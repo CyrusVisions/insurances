@@ -1,4 +1,4 @@
-# SigortaKKTC Prototype (Vite + React)
+# sigo Prototype (Vite + React)
 
 A modular React prototype for an insurance comparison website, converted from a single HTML sample into reusable UI sections.
 
